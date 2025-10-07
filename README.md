@@ -5,9 +5,9 @@ This project ingests claim document bundles (PDFs, images, DOCX, TXT), extracts 
 
 ### Requirements
 - Python 3.10+
-- MySQL 8+
+- MySQL 
 - Tesseract OCR installed and in PATH (or set `TESSERACT_CMD`)
-- Poppler (for `pdf2image`) installed and in PATH on Windows
+
 - Ollama installed and running a compatible model
 
 ### Setup
@@ -21,7 +21,7 @@ pip install -r requirements.txt
 MYSQL_HOST=localhost
 MYSQL_PORT=3306
 MYSQL_USER=root
-MYSQL_PASSWORD=yourpassword
+MYSQL_PASSWORD=root123
 MYSQL_DATABASE=insurance
 OLLAMA_HOST=http://localhost:11434
 OLLAMA_MODEL=llama3.1:8b
@@ -86,10 +86,7 @@ Endpoints:
 - POST /process {claim_number, policy_holder, claim_type, input_folder, incident_description?}
 - GET /summary/{claim_number}
 
-### Tests
-Run basic tests:
-```
-pytest -q
-```
+
+
 
 
