@@ -1,0 +1,7 @@
+Patient: Jane Doe
+Claim Number: CLM-0001
+Diagnosis: Cervical strain following minor motor vehicle collision.
+ICD-10: S16.1, M54.2
+Treatment: Rest, NSAIDs, follow-up in 1 week.
+
+

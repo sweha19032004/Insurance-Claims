@@ -1,0 +1,8 @@
+Claim Number: CLM-0001
+Policy Number: POL-123456
+Policy Holder: Jane Doe
+Claim Type: Auto
+Incident Date: 2025-09-01
+Description: Rear-end collision at intersection. Minor bumper damage. No injuries.
+
+

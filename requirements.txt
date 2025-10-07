@@ -1,0 +1,13 @@
+mysql-connector-python==9.0.0
+pytesseract==0.3.13
+pdf2image==1.17.0
+Pillow==10.4.0
+python-docx==1.1.2
+requests==2.32.3
+streamlit==1.38.0
+pypdf==5.0.1
+fastapi==0.115.2
+uvicorn==0.30.6
+pytest==8.3.3
+
+
